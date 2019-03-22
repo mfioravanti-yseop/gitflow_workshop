@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yseop-yml:ymlTextFunction xmlns:yseop-yml="http://www.yseop.com/yml/storage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domainModelVersion="3" identifier="9bf99eea-d4b6-40e1-81c0-4af694f520b4">
+    <yseop-yml:textGranule domainModelVersion="3" identifier="1a1ba35a-70c8-45de-a523-ca9329b2ab3e">
+        <yseop-yml:granuleI18nContents>
+            <yseop-yml:granuleUnilingueContent locale="fr">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text/>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+            <yseop-yml:granuleUnilingueContent locale="en">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text>Those are the client informations.</yseop-yml:text>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+        </yseop-yml:granuleI18nContents>
+        <yseop-yml:dslCondition/>
+        <yseop-yml:name/>
+        <yseop-yml:creationDate>2019-03-22T14:22:54.697Z</yseop-yml:creationDate>
+        <yseop-yml:properties identifier="c0b24944-9ea7-4cd2-9023-d009d377c619">
+            <yseop-yml:property identifier="c0b24944-9ea7-4cd2-9023-d009d377c619|condition" type="YML_PROPERTY" name="condition"></yseop-yml:property>
+        </yseop-yml:properties>
+    </yseop-yml:textGranule>
+    <yseop-yml:localVariables/>
+    <yseop-yml:advancedContent/>
+    <yseop-yml:ymlParameters/>
+    <yseop-yml:name>ClientInformations</yseop-yml:name>
+    <yseop-yml:properties identifier="bba0a703-3993-4a90-ab87-6c1a34f6edbf">
+        <yseop-yml:property identifier="bba0a703-3993-4a90-ab87-6c1a34f6edbf|dsl" type="YML_PROPERTY" name="dsl">"Client Informations"</yseop-yml:property>
+    </yseop-yml:properties>
+</yseop-yml:ymlTextFunction>

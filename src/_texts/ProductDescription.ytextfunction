@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yseop-yml:ymlTextFunction xmlns:yseop-yml="http://www.yseop.com/yml/storage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domainModelVersion="3" identifier="d97da036-964f-445e-b663-06239d47dd3e">
+    <yseop-yml:textGranule domainModelVersion="3" identifier="4f5946dc-33a9-46e2-9674-8cd1cf0321c7">
+        <yseop-yml:granuleI18nContents>
+            <yseop-yml:granuleUnilingueContent locale="fr">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text/>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+            <yseop-yml:granuleUnilingueContent locale="en">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text>This is the product description.</yseop-yml:text>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+        </yseop-yml:granuleI18nContents>
+        <yseop-yml:dslCondition/>
+        <yseop-yml:name/>
+        <yseop-yml:creationDate>2019-03-22T14:19:52.207Z</yseop-yml:creationDate>
+        <yseop-yml:properties identifier="3f142abb-ee50-4326-815a-6aff1c5eaba1">
+            <yseop-yml:property identifier="3f142abb-ee50-4326-815a-6aff1c5eaba1|condition" type="YML_PROPERTY" name="condition"></yseop-yml:property>
+        </yseop-yml:properties>
+    </yseop-yml:textGranule>
+    <yseop-yml:localVariables/>
+    <yseop-yml:advancedContent/>
+    <yseop-yml:ymlParameters/>
+    <yseop-yml:name>ProductDescription</yseop-yml:name>
+    <yseop-yml:properties identifier="941b1011-5f37-4bac-87c6-cd38c8d2ae84">
+        <yseop-yml:property identifier="941b1011-5f37-4bac-87c6-cd38c8d2ae84|dsl" type="YML_PROPERTY" name="dsl">"Product Description"</yseop-yml:property>
+    </yseop-yml:properties>
+</yseop-yml:ymlTextFunction>

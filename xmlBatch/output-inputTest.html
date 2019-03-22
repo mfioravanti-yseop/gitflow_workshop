@@ -1,0 +1,104 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<script xmlns:y="http://www.yseop.com/engine/3" xmlns:yt="http://www.yseop.com/text/2" type="text/javascript">
+
+/*
+  source : http://www.javascriptkit.com/javatutors/loadjavascriptcss.shtml
+*/
+function loadjscssfile(filename, filetype, onload){
+	if (filetype=="js"){ //if filename is a external JavaScript file
+		var fileref=document.createElement('script')
+		fileref.setAttribute("type","text/javascript")
+		fileref.setAttribute("src", filename)
+		if (typeof onload !=="undefined")
+			fileref.addEventListener("load", onload);
+	}
+	else if (filetype=="css"){ //if filename is an external CSS file
+		var fileref=document.createElement("link")
+		fileref.setAttribute("rel", "stylesheet")
+		fileref.setAttribute("type", "text/css")
+		fileref.setAttribute("href", filename)
+	}
+	
+	if (typeof fileref!="undefined")
+		document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+
+function loadCssArrayYseop(cssArray) {
+
+//split the URL
+//URL form is http://server/yseop-manager/dialog/project-name/....
+var split_URL = location.pathname.split("/");
+
+
+var pn = split_URL[3];
+var mode = split_URL[2];
+
+// when in Yseop Manager
+  if (location.protocol == 'http:') {
+
+  	if (pn!=null) {
+  	  for (var i in cssArray) {
+  	  	loadjscssfile("http://" + location.host + "/" + split_URL[1] + "/" + "dialog" + "/" + split_URL[3] + "/" + cssArray[i], "css");
+  	  }
+  	} else {
+  	  alert("project name not found!");
+  	}
+
+  // when batch with XSL
+  } else {
+  	for (var i in cssArray) {
+  	  //loadjscssfile("http://" + location.host + "/" + split_URL[1] + "/" + "dialog" + "/" + split_URL[3] + "/" + cssArray[i], "css");
+  	  loadjscssfile("../dialog/" + cssArray[i], "css");
+  	}
+  }
+}
+
+
+function loadJsArrayYseop(jsArray) {
+var split_URL = location.pathname.split("/");
+
+
+var pn = split_URL[3];
+var mode = split_URL[2];
+
+  // when in Yseop Manager
+  if (location.protocol == 'http:') {
+  	
+  	if (pn!=null) {
+		if (jsArray.length == 0) { return; }
+		if (jsArray.length == 1) {
+			loadjscssfile("http://" + location.host + "/" + split_URL[1] + "/" + "dialog" + "/" + split_URL[3] + "/"  + jsArray[0], "js");
+		} else {
+			currentFileToLoad = jsArray[0];
+			jsArray.splice(0, 1);
+			tempArray = jsArray;
+			
+			loadjscssfile("http://" + location.host + "/" + split_URL[1] + "/" + split_URL[2] + "/" + split_URL[3] + "/" + currentFileToLoad , 
+							"js", 
+							function() { loadJsArrayYseop(tempArray); } 
+			);
+		}
+	
+  	} else {
+  	  alert("project name not found!");
+  	}
+  // when batch with XSL
+  } else {
+  	for (var i in jsArray) {
+  	  loadjscssfile("../dialog/" + jsArray[i], "js");
+  	}
+  }
+}
+
+</script><head xmlns:y="http://www.yseop.com/engine/3" xmlns:yt="http://www.yseop.com/text/2">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<div xmlns:y="http://www.yseop.com/engine/3" xmlns:yt="http://www.yseop.com/text/2" class="reportArea">
+   <div class="regenBtn"><input id="generateReport" type="button" class="btn" onclick="generateResult()" value="Rewrite Me!"></div>
+   <div class="theReport" contenteditable="false">
+      <y:txt xmlns:yd="http://www.yseop.com/dialog/1" xmlns:yd-b="http://www.yseop.com/dialog/binding/1" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:fd="http://apache.org/cocoon/forms/1.0#definition" xmlns:ft="http://apache.org/cocoon/forms/1.0#template" xmlns:fi="http://apache.org/cocoon/forms/1.0#instance" xmlns:fb="http://apache.org/cocoon/forms/1.0#binding" id="finalDocument" index="1" name="text1" format="xml-dialect"><b>Félicitations&nbsp;!</b> <u>Félicitations&nbsp;!</u> <i>Félicitations&nbsp;!</i><br><br>Ceci est le “projet” Simple Web Service.
+         			
+      </y:txt>
+   </div>
+</div>

@@ -1,7 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <cs:case xmlns:cs="http://www.yseop.com/case/1" xmlns:w="http://www.yseop.com/widget/1" xmlns:y="http://www.yseop.com/engine/3" id="juliaMauny.xml">
   <cs:name>Julia Mauny</cs:name>
+  <cs:description>TODO Description</cs:description>
   <cs:data>
-    <y:instance yid="theGeneralData"/>
+    <y:instance yid="theGeneralData">
+      <language yid="LANG_fr"/>
+    </y:instance>
   </cs:data>
 </cs:case>

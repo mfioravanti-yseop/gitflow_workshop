@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:/yseop/projects/GitflowWorkshop/dialog/../dialog/output.xsl"?>
+<y:output xmlns:y="http://www.yseop.com/engine/3" xmlns:yt="http://www.yseop.com/text/2" xmlns:yd="http://www.yseop.com/dialog/1" xmlns:yd-b="http://www.yseop.com/dialog/binding/1" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:fd="http://apache.org/cocoon/forms/1.0#definition" xmlns:ft="http://apache.org/cocoon/forms/1.0#template" xmlns:fi="http://apache.org/cocoon/forms/1.0#instance" xmlns:fb="http://apache.org/cocoon/forms/1.0#binding">
+	<y:results>
+		<y:texts>
+			<y:txt id="finalDocument" index="1" name="text1" format="xml-dialect"><yt:bold>Félicitations<yt:no-break-space/>!</yt:bold> <yt:underline>Félicitations<yt:no-break-space/>!</yt:underline> <yt:italic>Félicitations<yt:no-break-space/>!</yt:italic><yt:line/><yt:line/>Ceci est le <yt:begin-double-quote style="en"/>projet<yt:end-double-quote style="en"/> Simple Web Service.
+			</y:txt>
+		</y:texts>
+	</y:results>
+	<y:dataset>
+		<y:action command="next-request"></y:action>
+		<y:dialog-session>
+			<y:request-count>1</y:request-count>
+			<y:start-timestamp>2019-03-22T12:54:11.610</y:start-timestamp>
+		</y:dialog-session>
+		<y:data>
+			<y:instance yid="theGeneralData"/>
+		</y:data>
+		<y:gathering-store></y:gathering-store>
+	</y:dataset>
+	<y:settings></y:settings>
+	<y:data-end>
+		<y:logging>
+			<y:log
+				index="1"
+				level="info"
+				nature="user-log"
+				origin-nb-ms="0.71">
+				<y:message>setLibActors called</y:message>
+			</y:log>
+		</y:logging>
+		<y:synthesis>
+			<y:language
+				id="fr"/>
+			<y:random
+				seed="776627826"
+				peak="0"/>
+			<y:process
+				id="824"
+				start-runtime="2019-03-22T12:54:11.552"
+				runtime="erunbc"
+				engine-version="7.2.1"
+				os="WINDOWS 6.2"
+				computer-name="DESKTOP-DP7JSGA"/>
+			<y:key-user
+				name="For Yseop internal use - By AK"
+				email="akaeser@yseop.com"
+				creation-date="2019-03-07"
+				expiration-date="2019-12-30"/>
+			<y:request-exec-time
+				begin="2019-03-22T12:54:11.610"
+				end="2019-03-22T12:54:11.613"/>
+			<y:stat
+				errors="0"
+				warnings="0"
+				success-rule-fire="0"
+				text-write="1"
+				main-words="0"
+				main-chars="0"/>
+		</y:synthesis>
+		<y:profiling
+			xmlns:yp="http://www.yseop.com/profiling/1">
+			<yp:workflow
+				request-elapsed-ms="3.23">
+				<yp:step
+					id="SC_REQUEST_MANAGER_INITIALIZE"
+					name="rq-initialize"
+					start="12310587930306"
+					end="12310587937022"
+					elapsed-ms="0.01">
+					<yp:engine-time-counters>
+						<yp:cnt id="internal-kb-assertions" cnt="1"/>
+					</yp:engine-time-counters>
+				</yp:step>
+				<yp:step
+					id="SC_REQUEST_MANAGER_READ"
+					name="rq-read"
+					start="12310588031442"
+					end="12310588411887"
+					elapsed-ms="0.38">
+					<yp:engine-time-counters>
+						<yp:tc id="xml-read" elapsed-ms="0.279">
+							<yp:tc id="read-object" elapsed-ms="0.279">
+								<yp:tc id="init" elapsed-ms="0.028"/>
+								<yp:tc id="stream-read" elapsed-ms="0.043" small="true" info="392 bytes"/>
+								<yp:tc id="xml-parse" elapsed-ms="0.151"></yp:tc>
+							</yp:tc>
+						</yp:tc>
+						<yp:cnt id="internal-kb-assertions" cnt="51"/>
+					</yp:engine-time-counters>
+					<yp:engine-time-counters>
+						<yp:tc id="read-englobant" elapsed-ms="0.465"/>
+						<yp:tc id="read-end" elapsed-ms="0.007"/>
+					</yp:engine-time-counters>
+				</yp:step>
+				<yp:step
+					id="SC_REQUEST_MANAGER_PROCESS"
+					name="rq-process"
+					start="12310588428479"
+					end="12310588772578"
+					elapsed-ms="0.34">
+					<yp:engine-time-counters>
+						<yp:tc id="write-text-method" elapsed-ms="0.088"></yp:tc>
+						<yp:cnt id="internal-kb-assertions" cnt="101"/>
+						<yp:tc id="domains-checks" elapsed-ms="0.010" cnt="11" small="true"/>
+						<yp:tc id="log-and-other-write-to-console" elapsed-ms="0.004" cnt="5" medium="true"/>
+					</yp:engine-time-counters>
+					<yp:engine-time-counters></yp:engine-time-counters>
+				</yp:step>
+				<yp:step
+					id="SC_REQUEST_MANAGER_WRITE"
+					name="rq-write"
+					start="12310589808826"
+					end="12310591173369"
+					elapsed-ms="1.36">
+					<yp:engine-time-counters>
+						<yp:tc id="write-text-method" elapsed-ms="0.629" cnt="10"></yp:tc>
+						<yp:cnt id="internal-kb-assertions" cnt="169"/>
+					</yp:engine-time-counters>
+					<yp:engine-time-counters>
+						<yp:tc id="init-end" elapsed-ms="12310589.904" small="true"/>
+					</yp:engine-time-counters>
+				</yp:step>
+				<yp:misc>59.601</yp:misc>
+			</yp:workflow>
+		</y:profiling>
+	</y:data-end>
+</y:output>

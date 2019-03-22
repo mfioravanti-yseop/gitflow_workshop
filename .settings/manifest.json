@@ -1,0 +1,15 @@
+{
+  "displayName_en" : "Gitflow_workshop",
+  "displayName_fr" : "Gitflow_workshop",
+  "description_fr" : "Gitflow_workshop",
+  "description_en" : "Gitflow_workshop",
+  "name" : "GitflowWorkshop",
+  "date" : "2019-03-22",
+  "creator" : "tomcat",
+  "version" : "1.0.0",
+  "engineVersionCompatible" : "7.1.0.M2-001",
+  "dependencies" : [ ],
+  "simpleCustomSections" : [ ],
+  "complexCustomSections" : [ ],
+  "instanceEditorClasses" : [ ]
+}
