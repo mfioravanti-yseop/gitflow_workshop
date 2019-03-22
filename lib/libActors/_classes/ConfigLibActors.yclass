@@ -1,0 +1,17 @@
+interface ConfigLibActors
+
+	field referentialType
+	--> domains		LibActors:referentialType
+	--> multivalued	true
+
+	field anaphoraType
+	--> domains		LibActors:anaphoraType
+	--> multivalued	true
+	
+	field sameSexeRelation
+	--> domains		Boolean	
+
+;
+
+implementation ConfigLibActors
+;
