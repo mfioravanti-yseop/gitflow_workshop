@@ -11,7 +11,7 @@
             </yseop-yml:granuleUnilingueContent>
             <yseop-yml:granuleUnilingueContent locale="en">
                 <yseop-yml:granuleContent>
-                    <yseop-yml:text>The product is very fancy, shiny, and modern. You're gonna love it!</yseop-yml:text>
+                    <yseop-yml:text>The product is very fancy, shiny, and modern. You're gonna love it! If you like it, you can also buy the Shiny Thing or the Bright Stuff.</yseop-yml:text>
                     <yseop-yml:inline-assemblies/>
                     <yseop-yml:inline-dslFunctionCalls/>
                 </yseop-yml:granuleContent>
