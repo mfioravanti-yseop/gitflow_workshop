@@ -11,7 +11,7 @@
             </yseop-yml:granuleUnilingueContent>
             <yseop-yml:granuleUnilingueContent locale="en">
                 <yseop-yml:granuleContent>
-                    <yseop-yml:text>This is how the product will be delivered.</yseop-yml:text>
+                    <yseop-yml:text>The product will be delivery by a transporter at your current address.</yseop-yml:text>
                     <yseop-yml:inline-assemblies/>
                     <yseop-yml:inline-dslFunctionCalls/>
                 </yseop-yml:granuleContent>
