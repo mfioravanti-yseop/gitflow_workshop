@@ -11,7 +11,8 @@
             </yseop-yml:granuleUnilingueContent>
             <yseop-yml:granuleUnilingueContent locale="en">
                 <yseop-yml:granuleContent>
-                    <yseop-yml:text>Your package is on its way!</yseop-yml:text>
+                    <yseop-yml:text>Your package is on its way!\p
+                    It will be delivered by TNT.</yseop-yml:text>
                     <yseop-yml:inline-assemblies/>
                     <yseop-yml:inline-dslFunctionCalls/>
                 </yseop-yml:granuleContent>
