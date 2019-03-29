@@ -12,7 +12,9 @@
             <yseop-yml:granuleUnilingueContent locale="en">
                 <yseop-yml:granuleContent>
                     <yseop-yml:text>Your package is on its way!\p
-                    It will be delivered by TNT.</yseop-yml:text>
+                    It will be delivered by TNT.\p
+                    You'll receive it on Monday.\p 
+                    </yseop-yml:text>
                     <yseop-yml:inline-assemblies/>
                     <yseop-yml:inline-dslFunctionCalls/>
                 </yseop-yml:granuleContent>
