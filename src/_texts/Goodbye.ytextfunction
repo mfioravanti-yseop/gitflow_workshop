@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yseop-yml:ymlTextFunction xmlns:yseop-yml="http://www.yseop.com/yml/storage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domainModelVersion="3" identifier="c25b573a-fe41-4ac3-9c18-637f6334eac9">
+    <yseop-yml:textGranule domainModelVersion="3" identifier="d7aa67f1-1134-437e-9a96-07ac8790faa">
+        <yseop-yml:granuleI18nContents>
+            <yseop-yml:granuleUnilingueContent locale="fr">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text/>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+            <yseop-yml:granuleUnilingueContent locale="en">
+                <yseop-yml:granuleContent>
+                    <yseop-yml:text>Goodbye!
+                    </yseop-yml:text>
+                    <yseop-yml:inline-assemblies/>
+                    <yseop-yml:inline-dslFunctionCalls/>
+                </yseop-yml:granuleContent>
+            </yseop-yml:granuleUnilingueContent>
+        </yseop-yml:granuleI18nContents>
+        <yseop-yml:dslCondition/>
+        <yseop-yml:name/>
+        <yseop-yml:creationDate>2019-03-22T14:25:26.533Z</yseop-yml:creationDate>
+        <yseop-yml:properties identifier="7c2e565a-c1b5-4418-84d2-9ba03f3a129f">
+            <yseop-yml:property identifier="7c2e565a-c1b5-4418-84d2-9ba03f3a129f|condition" type="YML_PROPERTY" name="condition"></yseop-yml:property>
+        </yseop-yml:properties>
+    </yseop-yml:textGranule>
+    <yseop-yml:localVariables/>
+    <yseop-yml:advancedContent/>
+    <yseop-yml:ymlParameters/>
+    <yseop-yml:name>ShippingState</yseop-yml:name>
+    <yseop-yml:properties identifier="bd9f5260-c093-4944-ac63-3e3795f642b2">
+        <yseop-yml:property identifier="bd9f5260-c093-4944-ac63-3e3795f642b2|dsl" type="YML_PROPERTY" name="dsl">"Shipping State"</yseop-yml:property>
+    </yseop-yml:properties>
+</yseop-yml:ymlTextFunction>
