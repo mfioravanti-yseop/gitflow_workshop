@@ -11,7 +11,7 @@
             </yseop-yml:granuleUnilingueContent>
             <yseop-yml:granuleUnilingueContent locale="en">
                 <yseop-yml:granuleContent>
-                    <yseop-yml:text>Those are your client informations. Your name is Martin, and you live in the beautiful city of Lyon. You have been living here since you were born.
+                    <yseop-yml:text>Those are your client informations. Your name is Martin, and you live in the beautiful city of Lyon. You have been living here since you were born. How lucky you are!
 </yseop-yml:text>
                     <yseop-yml:inline-assemblies/>
                     <yseop-yml:inline-dslFunctionCalls/>
